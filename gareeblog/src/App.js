@@ -10,6 +10,8 @@ import Home  from './components/pages/Home';
 import './components/pages/checkout.css';
 import Success from './components/pages/Success';
 import Cancel from './components/pages/Cancel'
+import card1 from './components/pages/card1'
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
        
         <Router>
         <Navbar />
+      
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/about' component={About} />
@@ -29,6 +32,8 @@ function App() {
         <Route path='/Success'  component={Success}/>
         <Route path ='/checkout' component={MyButton}/>
         <Route path='/Cancel' component={Cancel}/>
+        <Route path='/card1' component={card1}/>
+        
       
         </Switch>
         

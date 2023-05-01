@@ -27,6 +27,19 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+ 
+}
+.logo-img{
+  animation-name: logo; 
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes logo{
+  0%{rotate: 0deg;top: 50px;}
+  25%{rotate: 90deg;}
+  50%{rotate: 180deg;}
+  75%{rotate: 270deg;}
+  100%{rotate: 360deg;}
 }
 .navbar-logo-2 {
   color: rgb(226, 214, 214);

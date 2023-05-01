@@ -21,7 +21,7 @@ function Navbar() {
                   {/*navbar logo */}
                
                <Link to ="/" className="navbar-logo" onClick={closeMobileMenu}>
-                <img src={logo} alt=''  width='15%' height='10%'/>GIFT A SMILE
+                <img src={logo} alt=''  width='15%' height='10%' className='logo-img'/>GIFT A SMILE
                </Link>
                <div>
                <Link to ="/" className="navbar-logo-2" >

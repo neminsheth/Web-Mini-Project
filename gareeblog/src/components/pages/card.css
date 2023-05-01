@@ -1,0 +1,18 @@
+.cardlayout{
+    display: flex;
+    justify-content:space-between ;
+    background-color:antiquewhite;
+    height: 1000px;
+}
+
+.cardphoto{
+    margin:100px 0 0px 50px;
+    height: 200px;
+    
+}
+
+.text{
+    float: left;
+    margin: 150px 0px 0px 20px;
+}
+
