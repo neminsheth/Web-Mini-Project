@@ -24,10 +24,10 @@ function Footer(){
                 <div class="col-md-4">
                     <h3>Follow Us</h3>
                     <ul class="social-icons">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="www.facebook.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="www.twitter.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="linkedin.com"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="google.com"><i class="fa fa-google-plus"></i></a></li>
                     </ul>
                 </div>
             </div>

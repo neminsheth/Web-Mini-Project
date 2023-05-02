@@ -14,13 +14,16 @@ import Footer from './Footer';
 function Cards() {
   return (
     <div className='cards'>
+      
       <h1>Check out more about this page!</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
               src={cows}
-              text='When you sponsor a child , you not only help the child in need but also transform the lives of children in the community where the sponsored child lives, by ensuring they get access to quality education, proper nutrition, healthcare and protection. Your sponsorship also helps poor and vulnerable communities to build a more enabling context for their children to be protected and cared for.'
+              text=<h5>'DONATION FOR COWS'</h5>
+              
+              
               
               path='/card1'
             />
