@@ -13,6 +13,8 @@ import Cancel from './components/pages/Cancel'
 import card1 from './components/pages/card1'
 import hash from './components/pages/hash'
 import Footer from './components/Footer'
+import card2 from './components/pages/card2'
+import card3 from './components/pages/card3'
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
         <Route path ='/checkout' component={MyButton}/>
         <Route path='/Cancel' component={Cancel}/>
         <Route path='/card1' component={card1}/>
+        <Route path='/card2' component={card2}/>
+        <Route path='/card3' component={card3}/>
         <Route path='/hash' component={hash}/>
         <Route path='/Footer' component={Footer}/>
         
