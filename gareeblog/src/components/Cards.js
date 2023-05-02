@@ -22,7 +22,7 @@ function Cards() {
             <CardItem
               src={cows}
               text=<h5>'DONATION FOR COWS'</h5>
-              text1='hii'
+              text1='Donating for cows can help save them from starvation and provide them with food and shelter1. According to ancient texts, donating a cow can liberate you and your ancestors from sins committed knowingly or unknowingly during one’s lifetime2. Saving cows is saving the nation and the world.'
 
               
               
@@ -31,15 +31,17 @@ function Cards() {
             />
            <CardItem
               src={pic}
-              text='When you sponsor a child , you not only help the child in need but also transform the lives of children in the community where the sponsored child lives, by ensuring they get access to quality education, proper nutrition, healthcare and protection. Your sponsorship also helps poor and vulnerable communities to build a more enabling context for their children to be protected and cared for.'
+              text=<h5>'DONATION FOR ORPHAN KIDS'</h5>
+              text1=' Donating to orphan kids can help provide them with basic necessities such as food, shelter, and clothing. It can also help provide them with education and medical care1. When children are connected to their families, extended families, and loving foster families, they can enjoy healthy and productive lives.'
               
-              path='/hash'
+              path='/card2'
               />
              <CardItem
-              src={earthquake}
-              text='When you sponsor a child , you not only help the child in need but also transform the lives of children in the community where the sponsored child lives, by ensuring they get access to quality education, proper nutrition, healthcare and protection. Your sponsorship also helps poor and vulnerable communities to build a more enabling context for their children to be protected and cared for.'
+             src={earthquake}
+             text=<h5>'DONATION FOR SYRIA EARTHQUAKE'</h5>
+             text1='Donating cows is a common practice in India. Cow donation is made to Brahmins, temples, religious organizations like Mutts and other organizations. Most of the cow donation performed with the intention of getting specific returns are made to the temples, Brahmins or the Mutts'
               
-              path='/hash'
+              path='/card3'
               />
           </ul>
 

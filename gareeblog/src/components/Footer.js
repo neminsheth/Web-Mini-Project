@@ -12,13 +12,13 @@ function Footer(){
             <div class="row">
                 <div class="col-md-4">
                     <h3>About Us</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+                    <p>we help millions of people take action and support the causes they care about by connecting them to the best charities that align with their passions and values..</p>
                 </div>
                 <div class="col-md-4">
                     <h3>Contact</h3>
                     <ul>
-                        <li>Phone: 555-555-5555</li>
-                        <li>Email: info@example.com</li>
+                        <li>Phone: 7039601718</li>
+                        <li>Email: nhk@gmail.com</li>
                     </ul>
                 </div>
                 <div class="col-md-4">
