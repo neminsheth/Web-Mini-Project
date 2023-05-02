@@ -19,6 +19,7 @@ function Footer(){
                     <ul>
                         <li>Phone: 7039601718</li>
                         <li>Email: nhk@gmail.com</li>
+                        <li>Office: Babai Naka</li>
                     </ul>
                 </div>
                 <div class="col-md-4">
