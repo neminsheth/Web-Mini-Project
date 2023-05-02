@@ -21,7 +21,9 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={cows}
-              text=<h5>'DONATION FOR COWS we here in india'</h5>
+              text=<h5>'DONATION FOR COWS'</h5>
+              text1='hii'
+
               
               
               
