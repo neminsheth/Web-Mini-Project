@@ -4,6 +4,10 @@
 
 }
 
+*{
+  /* background-color:rgb(250, 233, 233); */
+}
+
 ::-webkit-scrollbar{
   display: none;
 }

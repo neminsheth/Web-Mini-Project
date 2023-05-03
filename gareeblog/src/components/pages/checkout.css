@@ -1,18 +1,24 @@
 .btn-large {
     background-color: rgb(43, 168, 177);
     text-align: center;
-    
+    margin-top: 10px;
     height: auto;
     
    position: absolute;
     
     -ms-transform: translate(-50% -50%);
     transform: translate(-50% -50%);
-     margin-left:40%;
+     margin-left: 38%;
      border: #9b3d3d;
      
     font-size: 20px;
     padding:10px 20px;
+}
+
+*{
+  /* background-color:antiquewhite; */
+  z-index: 0;
+  color: whitesmoke;
 }
 .canceled{
     font-size:25px;
@@ -51,10 +57,44 @@ button:hover{
     color: white
 }
 label{
-  color: #242424;
+  color: #de6b6b;
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-weight:200;
+    font-size: 25px;
+    margin-left: 45%;
+    margin-top: 25%;
+}
+
+.mmb{
+  background-color:  rgb(43, 168, 177);
+    text-align: center;
+    margin-top: 10px;
+    height: 75px;
+    
+   position: absolute;
+    
+    -ms-transform: translate(-50% -50%);
+    transform: translate(50% -50%);
+    margin-left: 50%;
+     border: #9b3d3d;
+     color: aliceblue;
+    font-size: 20px;
+    padding:10px 20px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,0.14), 0 1px 7px 0 rgba(0,0,0,0.12), 0 3px 1px -1px rgba(0,0,0,0.2);
+}
+/* 
+label1{
+  color: #242424;
+} */
+.mmid{
+  color: #242424;
+  position: absolute;
+  -ms-transform: translate(-50% -50%);
+  transform: translate(5% ,40%);
+  transform: scale(0.5);
+  margin-left: 5%;
+  margin-top: 8%;
 }
 
 

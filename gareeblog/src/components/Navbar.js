@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../images2/donatelogo.png'
+import logo from '../images2/donatelogo-removebg-preview (1).png'
 import './navbar.css';
 
 function Navbar() {
@@ -21,9 +21,9 @@ function Navbar() {
                   {/*navbar logo */}
                
                <Link to ="/" className="navbar-logo" onClick={closeMobileMenu}>
-                <img src={logo} alt=''  width='15%' height='10%' className='logo-img'/>GIFT A SMILE
+                <img src={logo} alt=''  width='15%' height='10%' className='logo-img'/> GIFT A SMILE
                </Link>
-               <div>
+               <div className='navbar-loogo-2'>
                <Link to ="/" className="navbar-logo-2" >
                    #BlackLivesDontMatter 
                </Link>

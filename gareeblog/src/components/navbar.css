@@ -10,16 +10,23 @@
   z-index: 999;
 }
 
+*{
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+}
+
 .navbar-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 80px;
   max-width: 1800px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 }
 
 .navbar-logo {
   color: #fff;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+  z-index: 1;
   justify-self: start;
   margin-left: 0px;
   cursor: pointer;
@@ -27,12 +34,18 @@
   font-size: 2rem;
   display: flex;
   align-items: center;
+  /* filter: invert(100); */
+  margin-right: 10px;
+  border-radius: 20%;
  
 }
 .logo-img{
   animation-name: logo; 
   animation-duration: 2s;
   animation-iteration-count: infinite;
+  margin-right: 10px;
+  border-radius: 70%;
+
 }
 @keyframes logo{
   0%{rotate: 0deg;top: 50px;}
@@ -42,7 +55,7 @@
   100%{rotate: 360deg;}
 }
 .navbar-logo-2 {
-  color: rgb(226, 214, 214);
+  color: rgb(221, 195, 195);
   justify-self: start;
   /* margin-left:30%; */
   position: absolute;
@@ -51,6 +64,7 @@
   font-size: 1.4rem;
   display: flex;
   align-items: center;
+  /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
 }
 
 .fa-typo3 {
@@ -67,10 +81,12 @@
   width: 60vw;
   justify-content: end;
   margin-right: 2rem;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 }
 
 .nav-item {
   height: 80px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
 }
 
 .nav-links {
