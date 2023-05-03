@@ -2,6 +2,9 @@ body {
   background-color: #131315;
   max-height: 300px;
 }
+*{
+  color: #fff;
+}
 
 footer {
   background-color: #201F21;

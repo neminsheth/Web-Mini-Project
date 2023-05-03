@@ -18,7 +18,7 @@
 *{
   /* background-color:antiquewhite; */
   z-index: 0;
-  color: whitesmoke;
+  color: rgb(146, 43, 43);
 }
 .canceled{
     font-size:25px;
